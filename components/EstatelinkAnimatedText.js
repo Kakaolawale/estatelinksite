@@ -30,11 +30,12 @@ const EstatelinkAnimatedText = () => {
           sequence={[
             // Same substring at the start will only be typed out once, initially
             'BUY!',
-            2000, // wait 1s before replacing 
+            2000,
+            'SELL!',
+            2000, // // wait 1s before replacing 
             'RENT!',
             2000, // wait 2
-            `SALES AND 
-            CONSTRUCTION!`,
+            `CONSTRUCTION!`,
             2000, // wait 2
             'Estatelink!',
             2000, 
