@@ -4,19 +4,24 @@ import Head from 'next/head';
 import Layouts from '../components/Layouts';
 import EstatelinkPrompt from '../components/EstatelinkPrompt';
 import EstatelinkAnimatedText from '../components/EstatelinkAnimatedText';
+import EstatelinkRecommendations from '../components/EstatelinkRecommendations';
+import EstatelinkHomecards from '../components/EstatelinkHomecards';
 
 
 
 const Home = () => {
   return (
   
-      <div>
+      <div className='bg-estatelinkpurple flex flex-col min-h-screen'>
         <Head>
           <title>Adain Technologies Ltd.</title>
           <meta name="Adain" content="...people, technologies and possibilities." />
-          <link rel="Adain Logo" href="/favicon.ico" />
+          <link rel="Estatelink Logo" href="/favicon.ico" />
         </Head>
-        <h1 className='text-adainwhite'>Home Page</h1>
+
+        <EstatelinkAnimatedText />
+        <EstatelinkRecommendations />
+        <EstatelinkHomecards />
      
       </div>
    

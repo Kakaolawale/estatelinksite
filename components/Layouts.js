@@ -4,12 +4,12 @@ import EstatelinkNavBar from './EstatelinkNavBar';
 
 
 // I imported the navbar and footer to set them as my app structure but with a prop to control where they should show in the app.
-const Layouts = ({ children, showNavbarAndFooter }) => {
+const Layouts = ({ children }) => {
   return (
     <div>
-      {showNavbarAndFooter && <EstatelinkNavBar />} 
+     <EstatelinkNavBar />
       {children}
-      {showNavbarAndFooter && <EstatelinkFooter />}
+      <EstatelinkFooter />
     </div>
   );
 };

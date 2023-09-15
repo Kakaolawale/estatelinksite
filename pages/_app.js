@@ -24,10 +24,8 @@ import EstatelinkSplashScreen from '../components/EstatelinkSplashScreen';
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      
-      <EstatelinkSplashScreen />
-      <Layouts showNavbarAndFooter={true}>
-        <Component {...pageProps} />
+     <Layouts>
+      <Component {...pageProps} />
       </Layouts>
     </div>
   );
