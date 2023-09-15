@@ -35,7 +35,7 @@ const EstatelinkAnimatedText = () => {
             2000, // // wait 1s before replacing 
             'RENT!',
             2000, // wait 2
-            `CONSTRUCTION!`,
+            `BUILD!`,
             2000, // wait 2
             'Estatelink!',
             2000, 
