@@ -1,32 +1,20 @@
-{/*import 'tailwindcss/tailwind.css';
-import Layouts from '../components/Layouts';
-import AdainSplashScreen from '../components/AdainSplashScreen';
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <div>
-      <AdainSplashScreen />
-      <Layouts showNavbarAndFooter={true}>
-        <Component {...pageProps} />
-      </Layouts>
-    </div>
-  );
-}
-
-export default MyApp; */}
 
 import React from 'react';
 import 'tailwindcss/tailwind.css';
 import Layouts from '../components/Layouts';
-import EstatelinkSplashScreen from '../components/EstatelinkSplashScreen';
+import store from '../redux/store';
+import { Provider } from 'react-redux';
 
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
+      <Provider store={store}>
      <Layouts>
       <Component {...pageProps} />
       </Layouts>
+      </Provider>
     </div>
   );
 }

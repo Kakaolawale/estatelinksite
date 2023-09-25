@@ -47,7 +47,7 @@ const EstatelinkAnimatedText = () => {
         />
         <br />
         <h2 className="text-2xl mb-8 text-center font-semibold text-estatelinkwhite">Find Your <span className='text-estatelinkyellow font-bold'>Dream Home</span></h2>
-        <EstatelinkSearch />
+        
       </div>
     </div>
   );

@@ -132,8 +132,8 @@ function EstatelinkNavBar() {
               the parent codeblock... */}
                   
                   <div className="text-adainblack hover:text-adainwhite  bg-estatelinkyellow hover:bg-estatelinkpurple md:bg:hover-estatelinkyellow rounded-xl lg:m-8 p-1  w-42 shadow-md">
-    <Link href="/navlinks/firebase-auth-page" className="sm:px-16 text-estatelinkwhite pr-10 mr-4 text-lg  lg:my-20" onClick={() => handleClick('checkout')}>
-     OUTRIGHT
+    <Link href="/estatelinkupload" className="sm:px-16 font-bold tracking-tight text-estatelinkblack hover:text-estatelinkwhite pr-10 mr-4 text-lg  lg:my-20" onClick={() => handleClick('checkout')}>
+     UPLOAD
     </Link>
   </div>
 </ul>
