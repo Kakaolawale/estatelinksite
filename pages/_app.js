@@ -5,6 +5,7 @@ import 'tailwindcss/tailwind.css';
 import Layouts from '../components/Layouts';
 import store from '../redux/store';
 import { Provider } from 'react-redux';
+import EstatelinkWhatsAppButton from '../components/EstatelinkWhatsAppButton';
 
 
 function MyApp({ Component, pageProps }) {
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
       <Provider store={store}>
      <Layouts>
       <Component {...pageProps} />
+      <EstatelinkWhatsAppButton />
       </Layouts>
       </Provider>
     </div>
