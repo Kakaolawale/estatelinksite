@@ -1,9 +1,10 @@
 import React from 'react';
 
 const EstatelinkWhatsAppButton = () => {
-    const whatsappNumber = "08094156441";
+    const whatsappNumber = "2348094156441";
     const text = "Welcome to Estatelink, chat us for more enquiries";
     const urlEncodedText = encodeURIComponent(text);
+    console.log(urlEncodedText);
 
     return (
         <a
