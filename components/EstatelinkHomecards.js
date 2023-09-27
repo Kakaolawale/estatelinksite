@@ -27,7 +27,7 @@ const EstatelinkHomecards = () => {
                 Find your place with an immersive photo experience and the most listings,
                 including things you won't find anywhere else.
               </p>
-              <a href="/buy-homes" className="text-estatelinkpurple hover:text-estatelinkwhite font-bold px-3 py-1 rounded-xl bg-estatelinkyellow hover:bg-estatelinkblack">Browse Property</a>
+              <a href="/bodynavigations/buyhomes" className="text-estatelinkpurple hover:text-estatelinkwhite font-bold px-3 py-1 rounded-xl bg-estatelinkyellow hover:bg-estatelinkblack">Browse Property</a>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ const EstatelinkHomecards = () => {
               <p className="text-gray-600 mb-4">
                 No matter what path you take to sell your home, we can help you navigate a successful sale.
               </p>
-              <a href="/sell-homes" className="text-estatelinkpurple hover:text-estatelinkwhite font-bold px-3 py-1 rounded-xl bg-estatelinkyellow hover:bg-estatelinkblack">Browse Property</a>
+              <a href="/bodynavigations/sellhomes" className="text-estatelinkpurple hover:text-estatelinkwhite font-bold px-3 py-1 rounded-xl bg-estatelinkyellow hover:bg-estatelinkblack">Browse Property</a>
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const EstatelinkHomecards = () => {
                 We’re creating a seamless online experience – from shopping on the largest rental network,
                 to applying, to paying rent.
               </p>
-              <a href="/rent-homes" className="text-estatelinkpurple hover:text-estatelinkwhite font-bold px-3 py-1 rounded-xl bg-estatelinkyellow hover:bg-estatelinkblack">Browse Homes</a>
+              <a href="/bodynavigations/renthomes" className="text-estatelinkpurple hover:text-estatelinkwhite font-bold px-3 py-1 rounded-xl bg-estatelinkyellow hover:bg-estatelinkblack">Browse Homes</a>
             </div>
           </div>
         </div>

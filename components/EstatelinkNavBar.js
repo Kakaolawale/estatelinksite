@@ -74,7 +74,7 @@ function EstatelinkNavBar() {
               <ul className="mb-4 mt-2 items-center pr-20 font-medium text-sm... justify-center space-y-4 md:flex md:space-x-4 md:space-y-0">
   
 
-   {/* I made a button on Products and services here... */}
+   
                   
   <li className="relative text-adainblack hover:text-estatelinkwhite">
     <button onClick={toggleDropdown} className="nav-link flex items-center">
@@ -82,8 +82,7 @@ function EstatelinkNavBar() {
       <FaCaretDown className="ml-1" />
     </button>
 
-   {/* I made a conditional rendering of dropdown of the items inside the 
-   Products and services here, such that that users can switch to true or false ... */}
+   
 
     {isDropdownOpen && (
       <div className="font-bold absolute py-8 my-4 text-sm  text-adainblack hover:text-estatelinkwhite">
@@ -91,19 +90,13 @@ function EstatelinkNavBar() {
          Partners
         </Link>
         <Link href="https://www.space1unicorn.com/" className="rounded-2xl mx-2 px-2 dropdown-link backdrop-blur-xl shadow-lg bg-adainyellow text-esatelinkwhite hover:text-adainblack">
-          Ongoing Projects
+         Projects
         </Link>
-        <Link href="/geez-api-url" className="rounded-2xl mx-2 px-2 dropdown-link backdrop-blur-xl shadow-lg bg-adainyellow text-estatelinkwhite hover:text-adainblack">
-         Projects Completed
-        </Link>
-        <Link href="/needle-api-url" className="rounded-2xl mx-2 px-2 dropdown-link backdrop-blur-xl shadow-lg bg-adainyellow text-estatelinkwhite hover:text-adainblack">
-        Future Projects
-        </Link>
-        </div>
+       </div>
           )}
          </li>
 
-         {/* I continued with the rest of the listed navlinks items here... */}  
+         
                   
                   <li className={`text-adainblack hover:text-estatelinkwhite ${activeNavItem === 'about' ? 'active' : ''}`}>
                     <Link href="/navlinks/about" onClick={() => handleClick('about')}>
@@ -132,8 +125,8 @@ function EstatelinkNavBar() {
               the parent codeblock... */}
                   
                   <div className="text-adainblack hover:text-adainwhite  bg-estatelinkyellow hover:bg-estatelinkpurple md:bg:hover-estatelinkyellow rounded-xl lg:m-8 p-1  w-42 shadow-md">
-    <Link href="/estatelinkupload" className="sm:px-16 font-bold tracking-tight text-estatelinkblack hover:text-estatelinkwhite pr-10 mr-4 text-lg  lg:my-20" onClick={() => handleClick('checkout')}>
-     UPLOAD
+    <Link href="/bodynavigations/estatelinkupload" className="sm:px-20 font-bold tracking-tight text-estatelinkblack hover:text-estatelinkwhite pr-10 mr-4 text-lg  lg:my-20" onClick={() => handleClick('checkout')}>
+     Upload Properties
     </Link>
   </div>
 </ul>

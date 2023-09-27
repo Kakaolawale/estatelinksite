@@ -8,31 +8,31 @@ const EstatelinkFooter = () => {
       <div className="container mx-auto px-10 flex flex-col md:flex-row md:justify-between md:items-center items-center">
        
         <div className="mx-8 px-10 flex flex-col space-y-4 mb-6 md:mb-0 text-center"> {/* This is the first div to wrapp the Getin Touch */}
-          <p className='mx-8 font-bold'>Get in Touch</p>
-          <div className="mx-8 text-adainyellow flex space-x-4">
+          <p className='text-estatelinkyellow mx-8 font-bold'>Get in Touch</p>
+          <div className=" text-estatelinkyellow flex space-x-4">
             <FaFacebook className="mx-8 text-2xl" />
             <FaTwitter className="mx-8 text-2xl" />
             <FaInstagram className="mx-8 text-2xl" />
             <FaLinkedin className="mx-8 text-2xl" />
           </div>
-          <p className='mx-8'>First floor, Sky Blue Building beside Beam clinic, Along Aso B Mararaba Road, Nasarawa State</p>
-          <p className='mx-8'>info@adain.ng</p>
+          <p className='mx-8'>Road 1, House 7, Lekki County, Lekki Lagos, Nigeria</p>
+          <p className='mx-8'>info@estatelink.com</p>
         </div>
         
      
         <div className="mx-8 px-10 flex my-4 flex-col  md:w-1/2 text-center"> {/* This is the second div to wrapp the Learn More */}
-          <p className='mx-8 font-bold'>Learn More</p>
+          <p className='text-estatelinkyellow mx-8 font-bold'>Learn More</p>
           <a className='mx-8' href="#">Home</a>
-          <a className='mx-8' href="#">Products and Services</a>
-          <a className='mx-8' href="#">Job</a>
+          <a className='mx-8' href="#">Constructions</a>
           <a className='mx-8' href="#">About Us</a>
-          <a className='mx-8' href="#">Blog</a>
-          <a className='mx-8' href="#">Contact</a>
+          <a className='mx-8' href="#">Buy</a>
+          <a className='mx-8' href="#">Sell</a>
+          <a className='mx-8' href="#">Rent</a>
         </div>
         
     
-        <div className="mx-8 px-10 flex my-4 flex-col  md:w-1/2 text-center">{/* This is the third div to wrapp the Newsletter */}
-        <p className='mx-8 font-bold'>Newsletter</p>
+        <div className="mx-8 px-10 flex my-4 flex-col  md:w-1/2 text-center">
+        <p className='text-estatelinkyellow mx-8 font-bold'>Newsletter</p>
           <p className="mx-8 mb-4">Subscribe to our newsletter to get our news & deals delivered to you</p>
           <form className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-1">
             <input
@@ -42,7 +42,7 @@ const EstatelinkFooter = () => {
             />
             <button
               type="submit"
-              className="mx-8 bg-estatelinkyellow text-white px-4 py-2 rounded"
+              className="mx-8 bg-estatelinkyellow font-bold text-estatelinkblack px-4 py-2 rounded"
             >
               Subscribe
             </button>
